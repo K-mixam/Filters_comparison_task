@@ -32,16 +32,11 @@ _____
 
 Теперь займемся выделенными функциями count_average_brightness и applying_the_filter. Допишем документацию и doc-тесты
 
-*скриншот5
-
-Текстовая версия тестов:
-
-** <br/>
-** список тестов <br/>
-** <br/>
+![Screenshot](screenshots/doctest_for_count_average_brightness.png)
+![Screenshot](screenshots/doctest_for_applying_the_filter.png)
 
 ______
 
 Результат работы с отладчиком:
 
-*скриншоты6-n
+![Screenshot](screenshots/work_with_PDB.png)

@@ -9,15 +9,15 @@ _____
 
 Вот время выполнения работы filter
 
-![Screenshot](filter_results.png)
+![Screenshot](screenshots/filter_results.png)
 
 и вот время выполнения работы old_filter
 
-![Screenshot](old_filter_results.png)
+![Screenshot](screenshots/old_filter_results.png)
 
 Казалось бы, где оптимизация? Но версия filter.py предполагает ввод 4х переменных. Поэтому, чтобы замерить время работы кода без этих погрешностей добавим еще один файл - filter_with_filename.py, в котором заранее будут указаны имя input-файла "img2", имя output-файла "res.jpg", размер блока 10, 50 градаций серого. Тогда без временных затрат на ввод данных будут следующие результаты:
 
-![Screenshot](filter_with_filename_results.png)
+![Screenshot](screenshots/filter_with_filename_results.png)
 
 Все всё понимают - матричные преобразования numpy на 2 порядка эффективнее ручных вычислений двумя циклами
 

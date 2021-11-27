@@ -20,6 +20,14 @@ _____
 ![Screenshot](filter_with_filename_results.png)
 
 Все всё понимают - матричные преобразования numpy на 2 порядка эффективнее ручных вычислений двумя циклами
+
+Этот фильтр из такой фотографии
+
+![Screenshot](img2.jpg)
+
+Делает такую
+
+![Screenshot](res.jpg)
 _____
 
 Теперь займемся выделенными функциями count_average_brightness и applying_the_filter. Допишем документацию и doc-тесты

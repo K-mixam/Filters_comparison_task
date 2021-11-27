@@ -35,6 +35,7 @@ _____
 ![Screenshot](screenshots/doctest_for_count_average_brightness.png)
 ![Screenshot](screenshots/doctest_for_applying_the_filter.png)
 
+Функция applying_the_filter() ничего не возвращает. Она изменяет заданный массив пикселей rgb_table (исходное изображение), поэтому к ней прилагается только описание
 ______
 
 Результат работы с отладчиком:
